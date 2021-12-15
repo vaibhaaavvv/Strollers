@@ -1,0 +1,17 @@
+{
+  "name": "strollers",
+  "version": "1.0.0",
+  "description": "This is travel package website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VS Software Technologies pvt. ltd.",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1",
+    "pug": "^3.0.2"
+  }
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Baloo+Bhai+2&family=Bebas+Neue&family=Ubuntu:wght@300&display=swap');
+
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.myInput{
+    width: 325px;
+    padding: 6px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    min-height: 80vh;
+}
+.container h1{
+    font-family: 'bebas neue';
+    margin: 20px;
+}
+.btn{
+    padding: 5px 25px;
+    color: black;
+    background-color: #917a7a;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}

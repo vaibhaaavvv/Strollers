@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Baloo+Bhai+2&family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Baloo+Bhai+2&family=Bebas+Neue&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar{
+    font-family: 'Architects Daughter', cursive;
+    background-color: #917a7a;
+    padding: 13px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#logo{
+    display: flex;
+    color: black;
+    align-items: center;
+    margin: 0px 14px;
+    font-weight: bold;
+    margin-right: 50px;
+    font-family: 'Bebas Neue';
+}
+ #logo img{
+     height: 30px;
+     border-radius: 4px;
+     margin-right: 5px;
+ }
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    font-weight: bold;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 75px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background: center / cover no-repeat url("/static/bg.jpg") ;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75px;
+    opacity: 0.8;
+}
+
+#introSection div.small{
+    font-size: 35px;
+}
+
+#packagesSection{
+    height: 500px;
+    background-color: #ffe8ed;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#packagesSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 45px;
+}
+
+#packagesSection .cards{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#packagesSection .card1{
+    background: center / cover no-repeat url("/static/Kheerganga.jpg");
+    opacity: 0.4;
+    width: 30%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 30px;
+}
+#packagesSection .card2{
+    background: center / cover no-repeat url("/static/Kareri.jpg");
+    opacity: 0.4;
+    width: 30%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 30px;
+}
+#packagesSection .card3{
+    background: center / cover no-repeat url("/static/Parashar.jpg");
+    opacity: 0.4;
+    width: 30%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 30px;
+}
+
+#packagesSection h3{
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#packagesSection h3:hover{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#blogs h2{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 45px;
+}
+
+#blogs .blogcards{
+    display: flex;
+    flex-direction: row;
+}
+
+#blogs h3{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.8rem;
+}
+#blogs .blogcard1{
+    background-color: #e8eded;
+    width: 30%;
+    height: 370px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 30px;
+}
+#blogs .blogcard2{
+    background-color: #e8eded;
+    width: 30%;
+    height: 370px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 30px;
+}
+#blogs .blogcard3{
+    background-color: #e8eded;
+    width: 30%;
+    height: 370px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 30px;
+}
+
+#blogs p{
+    font-size: 15px;
+    font-weight: normal;
+}
+#blogs{
+    height: 500px;
+    background-color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#footer{
+    height: 60px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color: #917a7a;
+    font-family: 'Bebas Neue', cursive;
+}

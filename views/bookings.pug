@@ -1,0 +1,28 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js") 
+
+block style 
+    style
+        include ../static/style.css
+        include ../static/styleBookings.css
+
+block content
+    div.container 
+        h1 Hurry! Book your package now!
+        form(action="/bookings" method='post', class = "myForm") 
+            input(type="text", class="myInput", name="name", placeholder='Enter your name')
+            input(type="phone", class="myInput", name="phone", placeholder='Enter your phone number')
+            input(type="email", class="myInput", name="email", placeholder='Enter your email')
+            label(for='package', class="myInput") Choose your destination
+                select(name='package')
+                    option(value='') Select your option 
+                    option(value='Kheerganga') Kheerganga 
+                    option(value='Kareri Lake') Kareri Lake
+                    option(value='Parashar Lake') Parashar Lake
+                    option(value='Manali') Manali
+            input(type="date", class="myInput", name="date")
+            button(class="btn")
+                | Book now
+

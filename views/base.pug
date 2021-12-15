@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title Book your travel package now with the Strollers
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/logo.jpg")
+                | Strollers
+            li 
+                a(href="/") Home
+                //can also be written as li #[a href='' home]
+            li 
+                a(href="/") About
+            li 
+                a(href="/") Destinations
+            li 
+                a(href="/") Blogs
+            li 
+                a(href="/bookings") Bookings
+        
+    block content
+                a(href="/") Contact Us
+    footer#footer 
+        | Copyright © 2021 All rights reserved | Powered by strollers.com
