@@ -1,0 +1,12 @@
+touch .gitignore
+git config --global user.name Vaibhav
+git config --global user.email "22838.vaibhav@gmail.com"
+git init
+git add .
+git commit -m "Initial commit"
+git status // just to see status 
+ssh-keygen -t ed25519 -C "22838.vaibhav@gmail.com"
+cat <path obtained by the command written above>
+add this key to github
+git push origin master
+
